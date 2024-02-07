@@ -5,9 +5,12 @@
 }
 body {
   color: wheat;
+  font-family: Roboto, sans-serif;
   overflow-x: hidden; /* x-axis hiddem; */
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   width: 100%;
   line-height: 1.5;
   align-items: center;
@@ -17,9 +20,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 20px;
   list-style: none;
-  
 }
 .logo img {
   max-height: 28px;
@@ -28,67 +30,109 @@ nav {
 .Nav1 {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .Nav1 ul {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  position: relative;
+  padding-right: 375px;
   overflow: hidden;
+  display: flex;
 }
 
 .Nav1 li {
   margin-right: 20px;
-  float: left;
   text-align: center;
 }
 
 .Nav1 ul li {
   list-style-type: none;
-  font-family: Roboto, sans-serif;
-  font-weight: 300;
   font-size: 15px;
-  color: rgb(161,165,199);
 }
 
 .Nav1 ul li a {
   text-decoration: none;
-  color: #007bff;
+  color: rgb(161, 165, 199);
   text-align: center;
   text-decoration: none;
-  padding: 0;
+  padding: 0 5px;
   margin: 0;
-  ;
 }
 
 .Nav1 ul li a:hover {
-  background-color: rgb(0,0,0);
-}
-.Videoo {
-  width: 100%;
-  height: auto;
+  background-color: rgb(209, 213, 226);
 }
 
-
-.btn {
-  background-color: #fff;
+.Businesss {
+  background-color: white;
   color: rgb(112, 140, 221);
-  padding: 10px 40px;
-  border-radius: 20px;
+  padding: 6px 35px;
+  border-radius: 40px;
   cursor: pointer;
-  border: 2px solid rgb(148, 158, 187);
+  border: 1px solid;
+  position: absolute;
+  margin-left: 800px;
+}
+
+.Businesss a {
+  text-decoration: none;
 }
 .btn:hover {
   background-color: rgb(209, 213, 226);
 }
 
-video {
+.videoo video {
   position: absolute;
-  width: 100%;
-  height: auto;
-  
+  display: flex;
+}
+
+.fa-viber {
+  font-size: 65px;
+  position: absolute;
+  transform: translate(-50% -50%);
+  cursor: pointer;
+  color: white;
+  left: 140px;
+  top: 170px;
+}
+.icon h1 {
+  position: absolute;
+  transform: translate(-50% -50%);
+  color: white;
+  left: 140px;
+  top: 245px;
+  line-height: 1.2em;
+  font-weight: lighter;
+  font-size: 54px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.icon h2 {
+  position: absolute;
+  transform: translate(-50% -50%);
+  color: white;
+  left: 140px;
+  top: 480px;
+  line-height: 1.2em;
+  font-size: 20px;
+}
+
+.Download-button a {
+  position: absolute;
+  transform: translate(-50% -50%);
+  color: white;
+  left: 140px;
+  top: 520px;
+  line-height: 1.2em;
+  font-size: 20px;
+  width: 240px;
+  height: 50px;
+  padding-top: 10px;
+  background-color: #66b821;
+  color: white;
+  border-radius: 80px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
