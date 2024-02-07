@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: wheat;
+  overflow-x: hidden; /* x-axis hiddem; */
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  line-height: 1.5;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  list-style: none;
+  
+}
+.logo img {
+  max-height: 28px;
+}
+
+.Nav1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.Nav1 ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  overflow: hidden;
+}
+
+.Nav1 li {
+  margin-right: 20px;
+  float: left;
+  text-align: center;
+}
+
+.Nav1 ul li {
+  list-style-type: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(161,165,199);
+}
+
+.Nav1 ul li a {
+  text-decoration: none;
+  color: #007bff;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  ;
+}
+
+.Nav1 ul li a:hover {
+  background-color: rgb(0,0,0);
+}
+.Videoo {
+  width: 100%;
+  height: auto;
+}
+
+
+.btn {
+  background-color: #fff;
+  color: rgb(112, 140, 221);
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid rgb(148, 158, 187);
+}
+.btn:hover {
+  background-color: rgb(209, 213, 226);
+}
+
+video {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  
+}
