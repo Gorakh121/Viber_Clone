@@ -103,7 +103,8 @@ nav {
   left: 140px;
   top: 245px;
   line-height: 1.2em;
-  font-weight: lighter;
+  font-weight: lighter ;
+  font-family: Roboto,sans-serif;
   font-size: 54px;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
@@ -112,6 +113,7 @@ nav {
   position: absolute;
   transform: translate(-50% -50%);
   color: white;
+  font-family: Roboto,sans-serif;
   left: 140px;
   top: 480px;
   line-height: 1.2em;
@@ -135,4 +137,72 @@ nav {
   cursor: pointer;
   text-decoration: none;
   text-align: center;
+}
+
+.pg-h1{
+padding-bottom: 100px;
+text-align: center;
+margin-top: 155px;
+}
+
+.pg-h1 h1{ 
+color: #323232;
+margin-bottom: 20px;
+font-weight: 100;
+font-size: 44px;
+font-family: Roboto,sans-serif;
+}
+
+.pg-h1 p{
+color:#323232;
+font-weight: 200;
+font-size: 15px;
+font-family: Roboto,sans-serif;
+}
+
+.thirdpg{
+
+}
+
+.gif1 img{
+  position: absolute;
+padding: auto;
+left: 13.5%;
+}
+
+.gif1 h1{
+  font-family: Roboto,sans-serif;
+  font-size: 20px;
+    padding: 240px 225px 10px;
+    color: black;
+}
+
+.gif1 p{
+  font-family: Roboto,sans-serif;
+  font-size: 15px;
+  color: #323232;
+    padding: 5px 195px 10px;
+}
+
+
+.gif2 img{
+  position: absolute;
+padding: auto;
+left: 35%;
+bottom: -102%;
+
+}
+
+.gif2 h1{
+  font-family: Roboto,sans-serif;
+  font-size: 20px;
+    left: 35%;
+    color: black;
+}
+
+.gif2 p{
+  font-family: Roboto,sans-serif;
+  font-size: 15px;
+  color: #323232;
+    
 }
