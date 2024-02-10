@@ -326,7 +326,6 @@ nav {
 }
 
 
-
 .fot {
   display: flex;
   justify-content: space-between;
@@ -334,7 +333,7 @@ nav {
   padding: 35px 10px;
 }
 
-.fot-1{
+.fot-1 {
   padding-left: 190px;
 }
 
@@ -342,7 +341,6 @@ nav {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  
 }
 .fot-nav ul {
   position: relative;
@@ -362,6 +360,108 @@ nav {
   padding: auto;
 }
 
-.fot-nav ul li a:hover{
+.fot-nav ul li a:hover {
   color: #8074d6;
+}
+.pg7 {
+  padding-top: 24px;
+  padding-bottom: 60px;
+  display: flex;
+  background-color: #574e92;
+}
+
+.pg7-1 ul li {
+    font-size: 14px;
+    color: hsla(0,0%,100%,.3);
+    font-weight: 300;
+  width: 200px;
+  padding-left: 150px;
+  list-style: none;
+  line-height: 25px;
+}
+
+.pg7-1 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.pg7-2 ul li {
+  width: 200px;
+ 
+  list-style: none;
+  font-size: 14px;
+    color: hsla(0,0%,100%,.3);
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.pg7-2 ul{
+  padding: 0px 95px 0px 90px;
+}
+.pg7-2 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.pg7-3 ul{
+  padding-right: 140px;
+}
+.pg7-3 ul li {
+  width: 200px;
+  list-style: none;
+  font-size: 14px;
+    color: hsla(0,0%,100%,.3);
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.pg7-3 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+
+.pg7-4 select {
+  border: 1px solid hsla(0,0%,100%,.3);
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px 15px;
+  font-weight: 100;
+  width: 200px;
+  background-color: #574e92;
+  color:  #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pg7-4 select option{
+  color: black;
+  background-color:white;
+  text-align: left;
+}
+
+.pg7-5{
+  position: absolute;
+  padding-left:78%;
+}
+
+.pg7-5 i{
+  padding-top: 280px ;
+  padding-left: 5px; 
+}
+
+.pg7-6{
+  position: absolute;
+  padding-left:78%;
+  padding-top: 300px;
+   font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+    font-size: 12px;
 }
